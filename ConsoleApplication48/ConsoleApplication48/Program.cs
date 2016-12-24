@@ -26,32 +26,30 @@ namespace ConsoleApplication48
                 indis = i;
                 i=iceride(dizi, sayi, i);
             }
-
-            int deger = 0;
-            for (int i = 0; i < 64; i++)
+            int min = 0;
+            int max = 8;
+            int temp=0;
+            for (int i = 0; i < 8; i++)
             {
                 //Console.WriteLine("{0}. kişinin kelimeleri:",i+1);
-                if (deger<8)
-                {
-                    Console.Write(" " + dizi[i] + " ");
-                    deger++;
-                }
-        
-                 else if (15>deger && deger>7)
-                {
-                    Console.Write(" "+dizi[i]+" ");
-                    deger++;
-                }
+               
 
+                for (int j = min; j < max; j++)
+                {
+                    Console.Write(" " + dizi[j] + " ");
+                }
+                Console.WriteLine("-------------------------");
+                min = max;
+                max +=8;
             }
             //Array.Sort(dizi);
-            Console.WriteLine("-------------------------");
+          /*
             for (int i = 0; i < dizi.Length; i++)
             {
                 Console.Write(" // "+dizi[i]+" // ");
                 
             }
-            
+            */
             Console.ReadLine();
         }
         static int iceride(int []dizi,int sayi,int indis)
