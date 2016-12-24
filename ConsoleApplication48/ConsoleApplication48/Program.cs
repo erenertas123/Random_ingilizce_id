@@ -28,7 +28,6 @@ namespace ConsoleApplication48
             }
             int min = 0;
             int max = 8;
-            int temp=0;
             for (int i = 0; i < 8; i++)
             {
                 //Console.WriteLine("{0}. kişinin kelimeleri:",i+1);
