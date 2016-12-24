@@ -1,1 +1,1 @@
-# Random_ingilizce_id
+# İngilizce projesi random kelime atama .
