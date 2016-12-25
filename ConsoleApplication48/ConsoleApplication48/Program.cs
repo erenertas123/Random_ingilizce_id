@@ -15,7 +15,7 @@ namespace ConsoleApplication48
             Random rand = new Random(); //Kelime id'leri için random sınıfı
             Random isim_rand = new Random(); //İsim indisleri için random sınıfı
             int isim_sayi, isim_indis, ind,sayi,indis;
-            string[] isimler = { "Hasan", "Gazi", "Karaşahin", "Eren", "Ertaş", "Mustafa", "Akbel", "Software Eng." };
+            string[] isimler = { "Hasan", "Hidayet", "Samet", "Eren", "Muhammed", "Mustafa", "Fatih", "Mücahit" };
             int[] isim = new int[8]; // random isim indislerinin dizisi
             int[] dizi = new int [64]; // random kelime id'lerin dizisi
             for (int i = 0; i < dizi.Length; i++) 
