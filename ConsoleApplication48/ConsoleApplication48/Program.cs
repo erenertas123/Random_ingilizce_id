@@ -8,8 +8,6 @@ namespace ConsoleApplication48
 {
     class Program
     {
-        
-        
         static void Main(string[] args)
         {
             Random rand = new Random(); //Kelime id'leri için random sınıfı
